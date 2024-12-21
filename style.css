@@ -19,10 +19,12 @@ body {
   align-items: center;
   gap: 10px; /* Spacing between image and heading */
   color: white;
+  flex-direction: column;
 }
 
 .main img {
   width: 60px;
+  color: white;
 }
 
 .main h1 {
@@ -35,6 +37,7 @@ p {
   font-size: 1rem;
   color: white;
   margin-right: 0;
+
 }
 
 .load {
